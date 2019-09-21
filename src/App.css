@@ -5,11 +5,13 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    
 }
 .display {
     margin-top: 25px;
+    margin-bottom: 2%;
     height: 100px;
-    width: 450px;
+    width: 405px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -19,4 +21,44 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+    margin-left: 8%;
+    
+  }
+
+  .all-buttons {
+      height: 90px;
+      width: 100px;
+      border-radius: 50%;
+      margin: 1% 1%;
+      background-color: blue;
+      color: white;
+      font-size: 2rem;
+  }
+
+  
+
+.App{
+    display: flex;
+    flex-flow: row;
+    padding-left: 8%;
+    
+}
+
+.operator-buttons {
+      display: flex;
+      flex-flow: column;
+      justify-self: flex-end;
+      
+
+  }
+
+  .left-calc {
+      display: flex;
+      flex-flow: column;
+      width: 350px;
+  }
+
+  .logo-container {
+      margin-top: 5%;
+      margin-left: 8%;
   }
